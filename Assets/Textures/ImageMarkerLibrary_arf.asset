@@ -25,3 +25,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: license
     m_Texture: {fileID: 2800000, guid: e9ea37a0d20fe4ff2a8d2eee13b8ba53, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5746595533229742141
+      m_GuidHigh: 141671887911254149
+    m_SerializedTextureGuid:
+      m_GuidLow: 6108315217238175176
+      m_GuidHigh: 3823054662489976314
+    m_Size: {x: 0.348, y: 0.348}
+    m_SpecifySize: 1
+    m_Name: test
+    m_Texture: {fileID: 2800000, guid: ab982dc8185354c5faad9dcaf5370e35, type: 3}
