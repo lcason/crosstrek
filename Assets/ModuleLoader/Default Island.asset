@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d939af64670248c0b3debff57bad4b6, type: 3}
   m_Name: Default Island
   m_EditorClassIdentifier: 
-  m_DefaultProviders: []
+  m_DefaultProviders:
+  - m_ProviderTypeName: Unity.MARS.Providers.IProvidesPlaneFinding
+    m_DefaultProviderTypeName: Unity.MARS.Providers.ARFoundation.ARFoundationPlaneProvider
+    m_DefaultProviderPrefab: {fileID: 0}
   m_PlatformOverrides: []
