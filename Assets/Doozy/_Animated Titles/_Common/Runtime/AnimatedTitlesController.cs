@@ -106,12 +106,12 @@ namespace Doozy._Animated_Titles._Common.Runtime
         {
             if (!canRun) return;
             StopContinuousPlay();
-            #if INPUT_SYSTEM_PACKAGE
+#if INPUT_SYSTEM_PACKAGE
             m_Space.Dispose();
             m_LeftArrow.Dispose();
             m_RightArrow.Dispose();
             m_UpArrow.Dispose();
-            #endif
+#endif
         }
 
         public void ShowHide()

@@ -35,3 +35,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: test
     m_Texture: {fileID: 2800000, guid: ab982dc8185354c5faad9dcaf5370e35, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5019941324232106186
+      m_GuidHigh: 11208694906560419749
+    m_SerializedTextureGuid:
+      m_GuidLow: 301119840299029405
+      m_GuidHigh: 3777878302220585673
+    m_Size: {x: 0.2794, y: 0.0762}
+    m_SpecifySize: 1
+    m_Name: bumper
+    m_Texture: {fileID: 2800000, guid: 3bd8939dcae6042dc98a83c04cb86d34, type: 3}

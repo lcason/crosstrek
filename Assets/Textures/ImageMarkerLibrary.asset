@@ -27,3 +27,10 @@ MonoBehaviour:
     m_MarkerDefinitionId:
       m_GuidLow: 5746595533229742141
       m_GuidHigh: 141671887911254149
+  - m_SpecifySize: 1
+    m_Size: {x: 0.2794, y: 0.0762}
+    m_Label: bumper
+    m_Texture: {fileID: 2800000, guid: 3bd8939dcae6042dc98a83c04cb86d34, type: 3}
+    m_MarkerDefinitionId:
+      m_GuidLow: 5019941324232106186
+      m_GuidHigh: 11208694906560419749

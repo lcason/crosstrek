@@ -210,8 +210,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
-      "version": "2.0.0-preview",
-      "depth": 3,
+      "version": "2.0.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -232,6 +232,15 @@
       "dependencies": {
         "com.unity.nuget.mono-cecil": "0.1.6-preview.2",
         "com.unity.test-framework.performance": "2.0.8-preview"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.remote-config": {
+      "version": "1.4.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
       },
       "url": "https://packages.unity.com"
     },
