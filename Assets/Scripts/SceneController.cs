@@ -15,11 +15,10 @@ public class SceneController : MonoBehaviour
 
     public UIContainer[] panels;
 
+    public Animator dipStickAnim;
 
-    void Start()
-    {
-        
-    }
+    public GameObject dipstick;
+
 
     // Update is called once per frame
     void Update()
@@ -33,6 +32,15 @@ public class SceneController : MonoBehaviour
 
     }
 
+    IEnumerator Timer()
+    {
+        
+
+        yield return new WaitForSeconds(3);
+
+        dipStickAnim.enabled = false;
+        
+    }
 
 
     void nextPanel()
@@ -49,9 +57,31 @@ public class SceneController : MonoBehaviour
         panels[step].gameObject.SetActive(false);
         step++;
 
-        if (step == panels.Length) step = 0;
+        if (step == panels.Length)
+        {
+            step = 0;
+            dipStickAnim.enabled = true;
+
+        }
 
         panels[step].gameObject.SetActive(true);
+
+        if (step == 3)
+        {
+
+            //hax
+            dipstick.SetActive(true);
+            StartCoroutine(Timer());
+        } else
+        {
+            dipstick.SetActive(false);
+        }
+
+        //if (step != 3 )
+        //{
+        //    dipStick.gameObject.SetActive(false);
+           
+        //}
 
 
     }
