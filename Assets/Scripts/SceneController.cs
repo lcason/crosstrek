@@ -51,6 +51,7 @@ public class SceneController : MonoBehaviour
         {
             step++;
             panels[step].gameObject.SetActive(true);
+            dipStickAnim.enabled = true;
             return;
         }
 
@@ -61,15 +62,15 @@ public class SceneController : MonoBehaviour
         {
             step = 0;
             dipStickAnim.enabled = true;
-
+            
         }
 
         panels[step].gameObject.SetActive(true);
 
-        if (step == 3)
+        if (step == 4)
         {
-
             //hax
+            dipStickAnim.enabled = true;
             dipstick.SetActive(true);
             StartCoroutine(Timer());
         } else
@@ -77,11 +78,7 @@ public class SceneController : MonoBehaviour
             dipstick.SetActive(false);
         }
 
-        //if (step != 3 )
-        //{
-        //    dipStick.gameObject.SetActive(false);
-           
-        //}
+       
 
 
     }
