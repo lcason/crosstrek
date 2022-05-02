@@ -36,7 +36,7 @@ public class SceneController : MonoBehaviour
     {
         
 
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(8.8f);
 
         dipStickAnim.enabled = false;
         
